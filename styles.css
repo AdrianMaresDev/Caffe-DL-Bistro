@@ -41,10 +41,8 @@ header {
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0.5rem 0;
-    margin: 0 auto;
-    max-width: 80%;
 }
 
 .header-span {
@@ -66,4 +64,25 @@ header {
     max-width: 10rem;
     max-height: auto;
     object-fit: cover;
+}
+
+.header-bottom-wrapper {
+    background-color: var(--black);
+}
+
+.header-bottom-wrapper ul {
+    display: flex;
+    justify-content: center;
+    padding: 0.9rem 0;
+    gap: 3.5rem;
+}
+
+.header-bottom-wrapper a {
+    color: var(--white);
+}
+
+.header-bottom-wrapper a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+    text-decoration-thickness: 1px;
 }
